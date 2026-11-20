@@ -1,51 +1,139 @@
 {
- "ערוץ רשת 13": "yes:Reshet HD",
+ "ערוץ רשת 13": [
+  "freetv:ערוץ 13",
+  "yes:Reshet HD"
+ ],
  "ספורט 4": "yes:Sport 4 HD",
  "TLC": "yes:TLC (68)",
  "Nickelodeon - ניקלודיאון (yes)": "yes:Nickelodeon",
- "il ערוץ המוזיקה": "yes:Music IL",
- "ערוץ קשת 12": "yes:Keshet HD",
- "ערוץ 24": "il1:ערוץ 24 בשידור חי",
- "דוקו yes": "yes:yes Docu HD",
+ "il ערוץ המוזיקה": [
+  "freetv:Music IL",
+  "yes:Music IL"
+ ],
+ "ערוץ קשת 12": [
+  "freetv:ערוץ 12",
+  "yes:Keshet HD"
+ ],
+ "ערוץ 24": [
+  "freetv:Music 24",
+  "yes:Music 24",
+  "il1:ערוץ 24 בשידור חי"
+ ],
+ "דוקו yes": [
+  "yes:yes Docu HD"
+ ],
  "ספורט 1": "yes:Sport 1 HD",
- "Sport 5 MAX": "yes:Sport 5 HD (55)",
- "4K ספורט 5": "yes:Sport 5 4K",
+ "Sport 5 MAX": [
+  "freetv:Sport 5 Max",
+  "yes:Sport 5 MAX",
+  "yes:Sport 5 HD (55)"
+ ],
+ "4K ספורט 5": [
+  "freetv:SPORT 5 4K",
+  "yes:Sport 5 4K"
+ ],
  "ספורט 2": "yes:Sport 2 HD",
- "N. Geographic - נשיונל ג'יאוגרפיק": "yes:National G. HD",
+ "N. Geographic - נשיונל ג'יאוגרפיק": [
+  "yes:National G. HD IP Only",
+  "yes:National G. HD"
+ ],
  "ספורט 3": "yes:Sport 3 HD",
- "i24NEWS בעברית": "yes:i24 Hebrew",
+ "i24NEWS בעברית": [
+  "freetv:i24 עברית",
+  "yes:i24 Hebrew"
+ ],
  "ZEE TV": "yes:ZEETV",
  "ערוץ האוכל": "yes:Food Channel",
  "ערוץ החיים הטובים": "il1:GOOD LIFE+",
  "טין ניק": "yes:TeenNick",
- "ערוץ עכשיו 14": "il1:ערוץ 14 HD",
+ "ערוץ עכשיו 14": [
+  "freetv:ערוץ 14",
+  "yes:Channel 14 HD",
+  "il1:ערוץ 14 HD"
+ ],
  "N. Geographic Wild - נשיונל ג'יאוגרפיק ווילד": "yes:National G. Wild HD",
- "GOLD ספורט 5": "il1:ספורט 5 גולד",
- "E! - ערוץ הבידור": "il1:E!",
+ "GOLD ספורט 5": [
+  "freetv:SPORT 5 GOLD",
+  "yes:Sport 5 Gold (57)",
+  "il1:ספורט 5 גולד"
+ ],
+ "E! - ערוץ הבידור": [
+  "yes:E",
+  "il1:E!"
+ ],
  "Zoom - זום": "yes:ZOOM",
  "GTV - ערוץ ישראלי גאורגי": "yes:GTV",
  "IETV  ערוץ הישראלי-אתיופי": "yes:IETV",
  "!הופ": "yes:HOP",
- "ערוץ רשת 13 - מונגש": "yes:Reshet HD SUB",
- "ערוץ כאן 11 - מונגש": "yes:Kan HD SUB",
- "ערוץ קשת 12 - מונגש": "yes:Keshet HD SUB",
- "PLUS ספורט 5": "il1:ספורט 5 פלוס",
- "הערוץ הים תיכוני +": "il1:ים תיכוני +",
- "STARS ספורט 5": "il1:5STARS",
- "Sport ONE": "yes:ONE HD",
- "Sport ONE2": "yes:ONE2 HD",
+ "ערוץ רשת 13 - מונגש": [
+  "freetv:ערוץ 13 - כבדי שמיעה",
+  "yes:Reshet HD SUB",
+  "freetv:ערוץ 13"
+ ],
+ "ערוץ כאן 11 - מונגש": [
+  "freetv:ערוץ 11 - כבדי שמיעה",
+  "yes:Kan HD SUB",
+  "freetv:ערוץ 11"
+ ],
+ "ערוץ קשת 12 - מונגש": [
+  "freetv:ערוץ 12 - כבדי שמיעה",
+  "yes:Keshet HD SUB",
+  "freetv:ערוץ 12"
+ ],
+ "PLUS ספורט 5": [
+  "freetv:SPORT 5 PLUS",
+  "yes:Sport 5+ HD (56)",
+  "il1:ספורט 5 פלוס"
+ ],
+ "הערוץ הים תיכוני +": [
+  "yes:Mediterranean Plus",
+  "il1:ים תיכוני +"
+ ],
+ "STARS ספורט 5": [
+  "freetv:Sport 5 Stars",
+  "yes:Sport 5 Stars HD (59)",
+  "il1:5STARS"
+ ],
+ "Sport ONE": [
+  "freetv:ONE 1",
+  "yes:ONE HD"
+ ],
+ "Sport ONE2": [
+  "freetv:ONE 2",
+  "yes:ONE2 HD"
+ ],
  "ערוץ האופנה הישראלי": "yes:Style Channel (Fashion IL)",
- "ערוץ הסרטים הים תיכוני 1": "yes:Mediterranean movies",
+ "ערוץ הסרטים הים תיכוני 1": [
+  "yes:Mediterranean movies 1",
+  "yes:Mediterranean movies"
+ ],
  "ערוץ העיצוב": "yes:Design Channel (DIY)",
- "CNN USA": "yes:CNN",
- "בית פלוס": "il1:בית + HD",
- "כנסת 99": "yes:Knesset",
- "הערוץ הים תיכוני": "il1:ים תיכוני",
- "הערוץ הים תיכוני 2": "il1:ים תיכוני 2",
+ "CNN USA": [
+  "yes:CNN"
+ ],
+ "בית פלוס": [
+  "yes:Home and Family",
+  "il1:בית + HD"
+ ],
+ "כנסת 99": [
+  "freetv:ערוץ הכנסת",
+  "yes:Knesset"
+ ],
+ "הערוץ הים תיכוני": [
+  "yes:Mediterranean Channel",
+  "il1:ים תיכוני"
+ ],
+ "הערוץ הים תיכוני 2": [
+  "yes:Mediterranean Channel 2",
+  "il1:ים תיכוני 2"
+ ],
  "ערוץ הכלכלה 10": "yes:Economics 10",
  "yes Movies Action": "yes:yes Movies Action",
  "yes Movies Comedy": "yes:yes Movies Comedy",
- "yes Pop Up": "yes:Yes POP UP HD",
+ "yes Pop Up": [
+  "yes:Pop up X",
+  "yes:Yes POP UP HD"
+ ],
  "סלקום MOVIES DRAMA": "il1:סלקום DRAMA MOVIES",
  "סלקום MOVIES COMEDY": "il1:סלקום COMEDY MOVIES",
  "סלקום MOVIES ACTION": "il1:סלקום ACTION MOVIES",
@@ -57,9 +145,17 @@
  "BollywooD - סרטים הודיים": "yes:Bollywood Movies",
  "BollywooD HD": "yes:Bollywood Movies",
  "BollywooD - סדרות": "yes:Bollywood Series",
- "Hala Tv": "yes:HALA TV",
- "FOX News Now": "yes:Fox News",
- "ערוץ ההומור": "il1:ערוץ ההומור",
+ "Hala Tv": [
+  "yes:HALA TV (Ben)",
+  "yes:HALA TV"
+ ],
+ "FOX News Now": [
+  "yes:Fox News"
+ ],
+ "ערוץ ההומור": [
+  "yes:Humor Channel",
+  "il1:ערוץ ההומור"
+ ],
  "HOT Cinema 1": "x:hot-cinema-1-il",
  "HOT Cinema 2": "x:hot-cinema-2-il",
  "HOT Cinema 3": "x:hot-cinema-3-il",
@@ -67,5 +163,322 @@
  "HOT Zone": "x:hot-zone-il",
  "NBA TV": "x:nba-tv-us",
  "ABC News": "x:abc-news-live-us",
- "ערוץ עכשיו 14 - מונגש": "il1:ערוץ 14 HD"
+ "ערוץ עכשיו 14 - מונגש": [
+  "freetv:ערוץ 14 - כבדי שמיעה",
+  "freetv:ערוץ 14",
+  "yes:Channel 14 HD",
+  "il1:ערוץ 14 HD"
+ ],
+ "ערוץ כאן 11": [
+  "freetv:ערוץ 11",
+  "yes:Kan HD"
+ ],
+ "ערוץ 16 - עושים חדשות": [
+  "freetv:ערוץ 16",
+  "yes:Channel 16"
+ ],
+ "ערוץ 9": [
+  "freetv:ערוץ 9",
+  "yes:Israel Plus (9)"
+ ],
+ "מכאן": [
+  "freetv:מכאן",
+  "yes:Makan"
+ ],
+ "כאן חינוכית": [
+  "freetv:חינוכית",
+  "yes:Kan Educational"
+ ],
+ "FreeTV  מוזיקה": [
+  "freetv:ערוץ המוזיקה"
+ ],
+ "ספורט 5": [
+  "freetv:SPORT5",
+  "yes:Sport 5 HD (55)"
+ ],
+ "LIVE ספורט 5": [
+  "freetv:Sport 5 Live",
+  "yes:Sport 5 Live HD (58)"
+ ],
+ "ספורט 6": [
+  "yes:Sport 6 HD",
+  "x:sport6-il"
+ ],
+ "ONE Doco": [
+  "freetv:One Doco",
+  "yes:ONE DOCO"
+ ],
+ "Sport EDGE": [
+  "freetv:One Edge",
+  "yes:ONE EDGE"
+ ],
+ "Eurosport 1": [
+  "yes:EUROSPORT IP HD SSR SD",
+  "yes:EUROSPORT HD"
+ ],
+ "Eurosport  2": [
+  "yes:Eurosport 2"
+ ],
+ "ערוץ מוטורויז'ן": [
+  "yes:Motorvision"
+ ],
+ "ערוץ הילדים": [
+  "freetv:ערוץ הילדים",
+  "yes:Kids Stars Channel"
+ ],
+ "ערוץ ג'וניור": [
+  "freetv:Junior",
+  "yes:Junior"
+ ],
+ "ערוץ בייבי": [
+  "freetv:BABY",
+  "yes:Baby"
+ ],
+ "ערוץ יויו": [
+  "freetv:יויו",
+  "yes:Yoyo"
+ ],
+ "ילדותי": [
+  "freetv:ילדותי",
+  "yes:Childhood"
+ ],
+ "שירי ילדותי": [
+  "freetv:שירי ילדותי",
+  "yes:Childhood songs"
+ ],
+ "ערוץ לוגי": [
+  "freetv:לוגי"
+ ],
+ "ערוץ פלא": [
+  "freetv:פלא"
+ ],
+ "ערוץ הכוכבים": [
+  "freetv:ערוץ הכוכבים"
+ ],
+ "ערוץ דיסני": [
+  "yes:Disney HD"
+ ],
+ "דיסני ג'וניור": [
+  "yes:Disney Junior"
+ ],
+ "לולי": [
+  "yes:Luli"
+ ],
+ "ערוץ הקריוקי": [
+  "freetv:ערוץ הקריוקי"
+ ],
+ "FOMO ערוץ": [
+  "freetv:FOMO"
+ ],
+ "A+": [
+  "freetv:A Plus"
+ ],
+ "ערוץ הטיולים": [
+  "yes:Travel Channel"
+ ],
+ "ערוץ הנופש": [
+  "yes:Vacation Channel"
+ ],
+ "ערוץ ההיסטוריה HD": [
+  "yes:History HD"
+ ],
+ "ערוץ ההיסטוריה": [
+  "yes:History SD",
+  "yes:History HD"
+ ],
+ "ערוץ דיסקברי": [
+  "yes:Discovery IP HD SSR SD",
+  "yes:Discovery HD"
+ ],
+ "Animal planet": [
+  "yes:ANIMAL PLANET"
+ ],
+ "ערוץ הבריאות": [
+  "yes:Health Channel"
+ ],
+ "ערוץ הטבע": [
+  "freetv:ערוץ הטבע"
+ ],
+ "Beautyz": [
+  "freetv:Beautyz"
+ ],
+ "Foody": [
+  "freetv:FOODY",
+  "yes:Foody"
+ ],
+ "FreeTV - אוכל": [
+  "freetv:FreeTV אוכל"
+ ],
+ "FreeTV - דוקו": [
+  "freetv:FreeTV דוקו"
+ ],
+ "FreeTV - לייף סטייל": [
+  "freetv:FreeTV לייף סטייל",
+  "yes:LifeStyle"
+ ],
+ "ערוץ הידברות": [
+  "yes:Hidabroot"
+ ],
+ "ערוץ הקבלה": [
+  "yes:Kehilaty (98)"
+ ],
+ "ערוץ אגו": [
+  "yes:EGO"
+ ],
+ "ערוץ הריאליטי": [
+  "yes:Reality Channel (Reshet)"
+ ],
+ "ערוץ השעשועונים": [
+  "yes:TV Game Shows"
+ ],
+ "ערוץ ההומור 2": [
+  "yes:Humor Channel 2"
+ ],
+ "ערוץ הקומדיות הקלאסיות": [
+  "yes:Classic Comedies"
+ ],
+ "ערוץ האהבה": [
+  "yes:Love Channel"
+ ],
+ "ערוץ במה ישראלית": [
+  "yes:Israeli Stage"
+ ],
+ "ערוץ הדרמות הישראליות": [
+  "yes:Israeli Drama"
+ ],
+ "ערוץ דרמות יומיות": [
+  "freetv:ערוץ הדרמות היומיות",
+  "yes:Daily Drama"
+ ],
+ "ערוץ ארץ נהדרת": [
+  "freetv:ערוץ ארץ נהדרת"
+ ],
+ "ערוץ סברי מרנן": [
+  "freetv:ערוץ סברי מרנן"
+ ],
+ "ערוץ רוקדים עם כוכבים": [
+  "freetv:ערוץ רוקדים עם כוכבים"
+ ],
+ "ערוץ הדרמות הטורקיות +": [
+  "yes:Turkish Drama"
+ ],
+ "ערוץ הדרמות הטורקיות 2": [
+  "yes:Turkish Drama 2"
+ ],
+ "ערוץ הדרמות הטורקיות 3": [
+  "yes:Turkish Drama 3"
+ ],
+ "ערוץ הדרמות ההודיות 1": [
+  "yes:Indian Drama 1",
+  "yes:Indian Drama"
+ ],
+ "ערוץ הדרמות ההודיות 2": [
+  "yes:Indian Drama 2"
+ ],
+ "ערוץ הדרמות הספרדיות 1": [
+  "yes:Spanish Drama 1"
+ ],
+ "ערוץ הדרמות הספרדיות 2": [
+  "yes:Spanish Drama 2"
+ ],
+ "ערוץ הסרטים הים תיכוני 2": [
+  "yes:Mediterranean movies 2"
+ ],
+ "ערוץ האקשן העולמי 1": [
+  "yes:World Action 1"
+ ],
+ "ערוץ האקשן העולמי 2": [
+  "yes:World Action 2"
+ ],
+ "ויוה טלנובלות": [
+  "freetv:ויוה טלנובלות",
+  "yes:Viva Telenovelas (Viva)"
+ ],
+ "ויוה איסטנבול": [
+  "freetv:ויוה איסטנבול",
+  "yes:Viva Istanbul (Viva Plus)"
+ ],
+ "'ויוה וינטג": [
+  "yes:Viva Vintage"
+ ],
+ "ויוה סיפור אהבה": [
+  "yes:Viva Love Story (Viva Premium)",
+  "yes:Viva Premium"
+ ],
+ "MTV סדרות": [
+  "yes:MTV SERIES"
+ ],
+ "MTV ישראל": [
+  "yes:MTV (MTV Music)"
+ ],
+ "yes ישראלי": [
+  "yes:23 - Only Israeli"
+ ],
+ "yes+ DARK": [
+  "yes:yes+ Dark",
+  "x:yes-plus-dark-il"
+ ],
+ "yes+ LOVE": [
+  "yes:yes+ Love",
+  "x:yes-plus-love-il"
+ ],
+ "yes+ Cinema": [
+  "yes:yes+ cinema",
+  "x:yes-plus-cinema-il"
+ ],
+ "yes+ Diamonds": [
+  "yes:yes+ diamonds",
+  "x:yes-plus-diamonds-il"
+ ],
+ "FreeTV - קומדיה": [
+  "freetv:FreeTV סדרות קומדיה"
+ ],
+ "FreeTV - דרמה": [
+  "freetv:FreeTV סדרות דרמה"
+ ],
+ "FreeTV סדרות קומדיה 2": [
+  "freetv:FreeTV סדרות קומדיה 2"
+ ],
+ "FreeTV Series Global": [
+  "freetv:FreeTV גלובל"
+ ],
+ "FreeTV Movies 10 STARS": [
+  "freetv:סרטים FreeTV 10 STARS"
+ ],
+ "FreeTV Movies ישראלי": [
+  "freetv:FreeTV סרטים ישראלי"
+ ],
+ "FreeTV Movies Horror": [
+  "freetv:FreeTV סרטים אימה"
+ ],
+ "FreeTV Movies FEEL GOOD": [
+  "freetv:FreeTV סרטים פיל גוד"
+ ],
+ "FreeTV Movies THRILLER": [
+  "freetv:FreeTV סרטים מתח"
+ ],
+ "FreeTV Movies ROMANTIC": [
+  "freetv:FreeTV סרטים רומנטי"
+ ],
+ "FreeTV Movies Drama": [
+  "freetv:FreeTV סרטים דרמה"
+ ],
+ "FreeTV Movies Comedy": [
+  "freetv:FreeTV סרטים קומדיה"
+ ],
+ "FreeTV Movies Action": [
+  "freetv:FreeTV סרטים פעולה"
+ ],
+ "FreeTV Movies Family": [
+  "freetv:FreeTV סרטים משפחה"
+ ],
+ "Sky News": [
+  "yes:Sky News"
+ ],
+ "FRANCE 24": [
+  "yes:FRANCE 24"
+ ],
+ "HOT Cinema 5": [
+  "x:hot-cinema-5-il"
+ ]
 }

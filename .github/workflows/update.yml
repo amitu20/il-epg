@@ -1,28 +1,29 @@
 name: update-epg
 on:
   schedule:
-    - cron: "0 2,14 * * *"
+    - cron: "23 */4 * * *"   # every 4 hours (odd minute: less GitHub scheduling delay)
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: update-epg
+  cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      - name: Grab yes.co.il guide
-        run: |
-          git clone --depth 1 https://github.com/iptv-org/epg.git grabber
-          cd grabber && npm install --no-audit --no-fund
-          npm run grab --silent -- -c sites/yes.co.il/yes.co.il.channels.xml --days 5 --maxConnections 5 -o ../yes.xml
       - name: Build merged guide
         run: python3 build_epg.py
+      - name: Show summary
+        run: python3 -c "import json;print(json.dumps(json.load(open('coverage.json'))['summary'],ensure_ascii=False,indent=1))"
       - name: Commit
         run: |
           git config user.name "epg-bot"
           git config user.email "epg-bot@users.noreply.github.com"
           git add epg.xml epg.xml.gz coverage.json
-          git diff --cached --quiet || git commit -m "Update EPG" && git push
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "Update EPG"
+          git pull --rebase -X theirs origin main || true
+          git push
